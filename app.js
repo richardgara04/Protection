@@ -1,1 +1,1 @@
-const API_KEY = "ghp_1234567890abcdefghijklmnopqrstuvwxyz1234";
+require("dotenv").config();\nconst API_KEY = process.env.API_KEY;
